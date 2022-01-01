@@ -1,8 +1,6 @@
-
-#include <ESP8266Client.h>
-
 // Including the ESP8266 WiFi library
 #include <ESP8266WiFi.h>
+#include <ESP8266Client.h>
 
 // Replace with your network details
 //hotspot =iPhone password=12345678
