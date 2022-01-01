@@ -67,8 +67,8 @@ void setup()
  {
   while(Serial.available())
   {
-     delay(50);
-     x= Serial.readString();
+      delay(50);
+      x= Serial.readString();
       countLine=(getStringPartByNr(x,')',0)).toInt();
       if(countLine==0)
       serialRead[0]=getStringPartByNr(x,')',1);
